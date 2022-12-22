@@ -1,0 +1,34 @@
+FILES:
+    constants
+    main
+    sequential_file
+    record
+    .dat
+    .txt
+
+constants:
+    ATTRIBUTES
+    FORMAT
+    CODING
+    F
+
+record:
+    Metoda za pakovanje (serijalizaciju)
+    Metoda za raspakivanje (deserijalizaciju)
+
+sequential_file:
+    binary_file:
+        Metoda za pisanje bloka
+        Metoda za citanje bloka
+        Metoda za pisanje sloga
+        Metoda za citanje sloga
+        Metoda za printanje bloka
+        Metoda za generisanje praznog sloga
+    ostale metode:
+        Metoda za inicijalizaciju praznog fajla
+        Metoda za pronalazenje sloga u bloku
+        Metoda za insertovanje sloga
+        Metoda za proveru da li je poslednji blok
+        Metoda za printovanje fajla
+        Metoda za trazenje sloga po id
+        Metoda za brisanje sloga po id
