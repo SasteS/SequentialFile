@@ -136,7 +136,7 @@ class Sequential_file:
 
         if next_block and next_block[0].get("evidencioni broj") == self.empty_key:
             os.ftruncate(os.open(self.filename, os.O_RDWR),
-                         block_idx * self.block_size)
+                         block_idx * self.block_size + 8)
 
     def write_block(self, file, block):
         binary_data = bytearray()   # Niz bita koji bi trebalo da se upise u datoteku

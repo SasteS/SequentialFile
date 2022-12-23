@@ -197,7 +197,7 @@ def meni_za_logicko_brisanje(data_file, binary_file, list_of_ids):
         broj_logicki_obrisanih += len(suzena_lista)
         print(broj_logicki_obrisanih)
 
-        if broj_logicki_obrisanih / ukupan_broj_slogova * 100 > 10:
+        if broj_logicki_obrisanih / ukupan_broj_slogova * 100 > 30:
             ukupan_broj_slogova -= broj_logicki_obrisanih
             broj_logicki_obrisanih = 0
             print(suzena_lista)
